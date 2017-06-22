@@ -60,84 +60,114 @@ Created by [springwcm_g5](https://mde2a2.kmol.info/wcmg5/index)
 						
 <section data-markdown>
     <script type="text/template">
-# 投影片快捷鍵
+# 機械設計
 
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
+* 機:精巧配置之互動元件.
+* 械:配置之元件所產生的特定功能,解決問題.
+* 設:表達結果.
+* 計:許多的思考和討論.
     </script>
 </section>
-
-
-						
-<section>
-<section data-markdown>
-    <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-# 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-    </script>
-</section>
-
 
 
 						
 <section data-markdown>
     <script type="text/template">
-<!-- 請注意, @others 不可以內縮 -->
-## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
+# 這學期使用的軟體
 
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
+* stunnel-https proxy server
+* cmsimfly-web based content
+* fossil-source code configuration
+* ethercalc-web based spread sheet
     </script>
 </section>
-
 
 
 						
 <section data-markdown>
     <script type="text/template">
-## 使用 iframe 導入影片
-
-### 導入影片 template
-
-<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+#CMSimfly
+* CMSimfly是一個內容管理系統，它不需要資料庫即可運作。
+* 所有的資料都存在2個檔案裡面－ content.html（內容）和pagedata.php（頁面相關的數據）
     </script>
 </section>
 
 
 						
+<section data-markdown>
+    <script type="text/template">
+# CMSimply
+
+* Brython 是一種以 Javascript 作為底層技術的客戶端 Python3 程式環境.
+* 使用者可以直接採用 Python3 程式語法結合 Html 5 建構多媒體網站.
+* 設:表達結果.
+* 計:許多的思考和討論.
+    </script>
 </section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+# 內容管理系統CMS
+
+* Content
+* Management
+* System
+* 一個合作模式下，用於管理工作流程的一套制度。
+* 流行的開源CMS系統有WordPress、Joomla!、Drupal、Xoops、CmsTop等
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+# Flask
+
+* Flask是一個使用Python編寫的輕量級Web應用框架。
+* Web應用框架
+* 支援動態網站、網路應用程式及網路服務的開發。
+
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+# Fossil
+
+* 是一個分散式版本控制系統、缺陷跟蹤管理系統或被用來在軟體開發中使用的wiki軟體伺服器，資料不會因停電或系統崩潰而損失，因為它使用SQLite資料庫。
+* SQLite是一個用c語言所撰寫之資料庫管理系統
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+# Stunnel
+
+* 是一個自由的跨平台軟體，用於提供全局的TLS/SSL服務。
+* 傳輸層安全協議 Transport Layer Security，TLS
+* 其前身安全通訊協定 Secure Sockets Layer，SSL
+* 一種安全協定，目的是為網際網路通訊，提供安全及資料完整性保障。
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
+# ethercalc
+
+* 可在網路上建立表個，讓多人編輯。打成績時所用。
+    </script>
+</section>
+
+
+						
 </div>
 
 </div>
